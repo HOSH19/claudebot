@@ -1,4 +1,4 @@
-# Trading Bot — Claude Code Routines Edition
+# Claude Trader
 
 Autonomous swing-trading bot that runs on **Claude Code** scheduled remote agents with a frontier Claude model, **Alpaca** for execution, **Tavily** for web-backed research, and **Telegram** for alerts. Based on Nate Herk’s *Opus 4.7 Trading Bot — Setup Guide*. The strategy rules, bash wrappers, git-backed memory, and routine prompts are all in this repo; the **scheduler and hosting** are **Claude Code** scheduled remote agents.
 
