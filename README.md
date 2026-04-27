@@ -14,6 +14,21 @@ Autonomous swing-trading bot that runs on **Cursor Automations** (Cloud Agents) 
 
 The bot is not a long-running server. It is **five scheduled jobs**: each one spins up a **fresh, disposable Linux VM**, runs a **language model** with your repo and secrets, and then **shuts down**. The only place anything survives between runs is **this Git repository on `main`**. That is intentional: the agent’s “memory” is whatever is committed in `memory/*.md` — you can read it, diff it, revert it, and audit it like any other code.
 
+```mermaid
+flowchart TB
+    cron["Automation cron (or Run now)"] --> vm["Ephemeral Cloud Agent VM"]
+    vm --> boot[".cursor/environment + secrets"]
+    boot --> clone["git clone @ main"]
+    clone --> read["AGENTS.md + memory/*.md + routine prompt"]
+    read --> work["Claude (model you chose)"]
+    work --> alpaca["scripts/alpaca.sh"]
+    work --> tavily["scripts/tavily.sh"]
+    work --> telegram["scripts/telegram.sh"]
+    work --> mem["Read/write memory/*.md"]
+    mem --> push["git commit + push → main"]
+    push --> x["VM destroyed"]
+```
+
 ### One run, end to end
 
 1. **Trigger** — A Cursor Automation fires on its cron (see table below) or you click **Run now** for a manual test.
@@ -62,21 +77,6 @@ Cron strings below match **Pacific Time** if your Cursor UI does not offer a tim
 | [`routines/weekly-review.md`](routines/weekly-review.md) | `0 14 * * 5` | Friday: `WEEKLY-REVIEW.md` |
 
 The **model** (e.g. Opus vs Sonnet) is chosen per Automation in the Cursor UI — not in the markdown files. Heavier judgment (opens, position management) may warrant a larger model; pure research or recap can use a smaller one. Cloud Agents use **Max Mode**-style full runs; **usage** draws from your plan’s **API credit pool** and can **overage** at published model rates. Set a **spend cap** in Cursor if you want a hard ceiling.
-
-```mermaid
-flowchart TB
-    cron["Automation cron (or Run now)"] --> vm["Ephemeral Cloud Agent VM"]
-    vm --> boot[".cursor/environment + secrets"]
-    boot --> clone["git clone @ main"]
-    clone --> read["AGENTS.md + memory/*.md + routine prompt"]
-    read --> work["Claude (model you chose)"]
-    work --> alpaca["scripts/alpaca.sh"]
-    work --> tavily["scripts/tavily.sh"]
-    work --> telegram["scripts/telegram.sh"]
-    work --> mem["Read/write memory/*.md"]
-    mem --> push["git commit + push → main"]
-    push --> x["VM destroyed"]
-```
 
 ## Repository layout
 
