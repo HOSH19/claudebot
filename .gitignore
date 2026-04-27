@@ -1,0 +1,18 @@
+# Local credentials — NEVER commit
+.env
+.env.*
+!.env.template
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local fallback notification log (when ClickUp creds are absent)
+DAILY-SUMMARY.md
+
+# Python
+__pycache__/
+*.pyc
