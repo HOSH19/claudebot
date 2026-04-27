@@ -1,6 +1,6 @@
 # Setup Walkthrough
 
-The repo scaffolding is done. The remaining steps all happen in external dashboards (GitHub, Cursor, Alpaca, Perplexity, Telegram). Follow these in order.
+The repo scaffolding is done. The remaining steps all happen in external dashboards (GitHub, Cursor, Alpaca, Tavily, Telegram). Follow these in order.
 
 ## 0. Push the repo to GitHub
 
@@ -19,7 +19,7 @@ git push -u origin main
 | Service | Where | What you need |
 |---|---|---|
 | Alpaca | https://alpaca.markets/ | Open a **paper** account first; copy API Key + Secret from the dashboard. Live account too if you plan to flip later. |
-| Perplexity | https://www.perplexity.ai/settings/api | Generate an API key. The default `sonar` model is included in the Pro plan. |
+| Tavily | https://app.tavily.com/ | Sign up (no credit card), generate an API key from the dashboard. Free tier = 1000 searches/month, plenty for this bot's ~170/month. |
 | Telegram | t.me/BotFather | Create a bot via `/newbot`, save the bot token. Then message your bot once and grab your chat ID from `https://api.telegram.org/bot<TOKEN>/getUpdates` (the `chat.id` field). |
 
 ## 2. Install the Cursor GitHub App on this repo
@@ -41,8 +41,8 @@ Go to https://cursor.com/dashboard/cloud-agents -> **Secrets** tab. Add each of 
 | `ALPACA_SECRET_KEY` | from Alpaca dashboard |
 | `ALPACA_ENDPOINT` | `https://paper-api.alpaca.markets/v2` (start here; flip to `https://api.alpaca.markets/v2` after a successful paper week) |
 | `ALPACA_DATA_ENDPOINT` | `https://data.alpaca.markets/v2` |
-| `PERPLEXITY_API_KEY` | from Perplexity API settings |
-| `PERPLEXITY_MODEL` | `sonar` |
+| `TAVILY_API_KEY` | from app.tavily.com (free 1000 searches/month) |
+| `TAVILY_SEARCH_DEPTH` | `basic` (recommended) or `advanced` |
 | `TELEGRAM_BOT_TOKEN` | bot token from @BotFather, format `1234567890:AAEhBP9...` |
 | `TELEGRAM_CHAT_ID` | numeric chat ID — your user ID, group ID, or channel ID |
 
@@ -75,7 +75,7 @@ Before enabling all five schedules, click **Run now** on the **pre-market** Auto
 
 - [ ] Env-var preflight prints all six required vars as `set` (none `MISSING`)
 - [ ] `bash scripts/alpaca.sh account` returns valid JSON (paper account equity)
-- [ ] Perplexity calls succeed, or gracefully fall back to native WebSearch
+- [ ] Tavily calls succeed, or gracefully fall back to native WebSearch
 - [ ] `memory/RESEARCH-LOG.md` gains a new dated entry
 - [ ] No `.env` file was created (the prompt forbids this)
 - [ ] Run ends with `git push origin main` succeeding (check `git log` on GitHub)
@@ -103,7 +103,7 @@ If all green, enable the schedules on the other four Automations.
 | Yesterday's trades missing from today's run | Previous run didn't commit+push | Verify `git log origin/main`; re-check STEP N of that routine |
 | Push fails "fetch first" / non-fast-forward | Two runs raced | Prompt handles this with `git pull --rebase`. If looping, look for a real merge conflict |
 | Telegram message didn't arrive | `TELEGRAM_BOT_TOKEN` or `TELEGRAM_CHAT_ID` missing, OR you never messaged the bot first (Telegram requires you to start the chat before a bot can DM you) | Script falls back to a local file silently; add the missing var or send `/start` to the bot |
-| Perplexity calls didn't happen | `PERPLEXITY_API_KEY` missing | Script exits 3, agent falls back to WebSearch. Add the key or accept fallback |
+| Tavily calls didn't happen | `TAVILY_API_KEY` missing | Script exits 3, agent falls back to WebSearch. Add the key or accept fallback |
 | Alpaca rejects stop with PDT error | Same-day stop on same-day buy | Prompt's fallback ladder (trailing -> fixed -> queue tomorrow) handles it. If not cascading, re-paste STEP 5 verbatim |
 | Agent opens a PR instead of pushing to main | "Open pull request" wasn't disabled on the Automation | Edit the Automation; toggle PR off. The prompts also explicitly say "Do NOT open a PR" but the dashboard setting is the harder gate |
 
@@ -114,4 +114,4 @@ If all green, enable the schedules on the other four Automations.
 - Setup (environment.json, secrets): https://cursor.com/docs/cloud-agent/setup
 - Models & pricing: https://cursor.com/docs/models-and-pricing
 - Alpaca trading API: https://docs.alpaca.markets/
-- Perplexity API: https://docs.perplexity.ai/
+- Tavily API: https://docs.tavily.com/

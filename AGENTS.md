@@ -41,7 +41,7 @@ Defined in `routines/`. Five scheduled Cursor Automations per trading day:
 
 ## API Wrappers
 
-Use `bash scripts/alpaca.sh`, `scripts/perplexity.sh`, `scripts/telegram.sh`.
+Use `bash scripts/alpaca.sh`, `scripts/tavily.sh`, `scripts/telegram.sh`.
 Never `curl` these APIs directly.
 
 ## Persistence (Cloud Agent runs)

@@ -8,14 +8,13 @@ DATE=$(date +%Y-%m-%d).
 IMPORTANT — ENVIRONMENT VARIABLES:
 - Every API key is ALREADY exported as a process env var: ALPACA_API_KEY,
   ALPACA_SECRET_KEY, ALPACA_ENDPOINT, ALPACA_DATA_ENDPOINT,
-  PERPLEXITY_API_KEY, PERPLEXITY_MODEL, TELEGRAM_BOT_TOKEN,
-  TELEGRAM_CHAT_ID.
+  TAVILY_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
 - There is NO .env file in this repo and you MUST NOT create, write, or
   source one. The wrapper scripts read directly from the process env.
 - If a wrapper prints "KEY not set in environment" -> STOP, send one
   Telegram alert naming the missing var, and exit.
 - Verify env vars BEFORE any wrapper call:
-  for v in ALPACA_API_KEY ALPACA_SECRET_KEY PERPLEXITY_API_KEY \
+  for v in ALPACA_API_KEY ALPACA_SECRET_KEY TAVILY_API_KEY \
            TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID; do
     [[ -n "${!v:-}" ]] && echo "$v: set" || echo "$v: MISSING"
   done
@@ -36,8 +35,8 @@ STEP 2 — Pull live account state:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh orders
 
-STEP 3 — Research market context via Perplexity. Run
-  bash scripts/perplexity.sh "<query>" for each:
+STEP 3 — Research market context via Tavily. Run
+  bash scripts/tavily.sh "<query>" for each:
 - "WTI and Brent oil price right now"
 - "S&P 500 futures premarket today"
 - "VIX level today"
@@ -47,8 +46,11 @@ STEP 3 — Research market context via Perplexity. Run
 - "S&P 500 sector momentum YTD"
 - News on any currently-held ticker
 
-If Perplexity exits 3, fall back to native WebSearch and note the
-fallback in the log entry.
+If Tavily exits 3 (TAVILY_API_KEY not set), fall back to native
+WebSearch and note the fallback in the log entry. The Tavily response
+contains an `answer` field with a synthesized summary plus a `results`
+array of cited sources — quote sources by URL when documenting in the
+research log.
 
 STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)

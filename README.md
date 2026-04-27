@@ -11,7 +11,7 @@ Five Cursor Automations, each with its own cron, fire on weekdays. On each fire:
 1. Cursor's Cloud Agent VM clones this repo at `main`.
 2. It reads `memory/*.md` for context.
 3. It runs the routine prompt with Claude 4.7 Opus.
-4. The agent calls `scripts/alpaca.sh` / `perplexity.sh` / `telegram.sh` as needed.
+4. The agent calls `scripts/alpaca.sh` / `tavily.sh` / `telegram.sh` as needed.
 5. It appends to `memory/*.md`, then **commits and pushes to `main`**.
 6. The VM is destroyed. No state survives outside git.
 
@@ -22,7 +22,7 @@ flowchart TB
     clone --> read["Read memory/*.md"]
     read --> work["Run Opus 4.7"]
     work --> alpaca["scripts/alpaca.sh"]
-    work --> ppx["scripts/perplexity.sh"]
+    work --> tavily["scripts/tavily.sh"]
     work --> telegram["scripts/telegram.sh"]
     work --> writeMem["Append to memory/*.md"]
     writeMem --> push["git commit + push to main"]
@@ -58,7 +58,7 @@ trading-bot/
 │   └── weekly-review.md
 ├── scripts/                 # The only path to external APIs
 │   ├── alpaca.sh
-│   ├── perplexity.sh
+│   ├── tavily.sh
 │   └── telegram.sh
 └── memory/                  # Agent's persistent state (committed to main)
     ├── TRADING-STRATEGY.md
@@ -88,8 +88,8 @@ At [cursor.com/dashboard/cloud-agents](https://cursor.com/dashboard/cloud-agents
 | `ALPACA_SECRET_KEY` | from Alpaca dashboard |
 | `ALPACA_ENDPOINT` | start with `https://paper-api.alpaca.markets/v2` |
 | `ALPACA_DATA_ENDPOINT` | `https://data.alpaca.markets/v2` |
-| `PERPLEXITY_API_KEY` | from Perplexity API settings |
-| `PERPLEXITY_MODEL` | `sonar` |
+| `TAVILY_API_KEY` | from app.tavily.com (1000 free searches/month) |
+| `TAVILY_SEARCH_DEPTH` | `basic` (cheaper) or `advanced` (deeper) — default `basic` |
 | `TELEGRAM_BOT_TOKEN` | from @BotFather, format `1234567890:AAEhBP9...` |
 | `TELEGRAM_CHAT_ID` | numeric — your user ID, group ID, or channel ID |
 
