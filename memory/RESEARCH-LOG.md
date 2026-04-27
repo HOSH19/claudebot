@@ -110,3 +110,58 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 **HOLD today — watch and assess.** SPX futures strong (+0.73%) and DELL/NVDA are both compelling setups, but FOMC Wednesday creates outsized binary risk. Strategy: observe first 30–60 min of open, let price settle, then evaluate 1 starter position in DELL if it dips to $130–$132 range with volume confirmation. Do NOT initiate full-size positions before FOMC. Max 1 new trade this week until Wednesday clears. Patience > activity.
+
+---
+
+## 2026-04-27 — Pre-market Research (Run 3)
+
+### Infrastructure Status
+- **Alpaca API: BLOCKED** — `Host not in allowlist` (HTTP 403) on both `paper-api.alpaca.markets` and `api.alpaca.markets`. Cannot pull live account/positions/orders this run.
+- **Tavily API: BLOCKED** — `Host not in allowlist` (HTTP 403). Falling back to native WebSearch.
+- **Telegram API: BLOCKED** — `Host not in allowlist` (HTTP 403). Cannot send alerts.
+- All env vars present; failure is a network allowlist issue, not credentials.
+
+### Account (last known, from Run 2 entry above)
+- Equity: $100,000.00
+- Cash: $100,000.00 (100%)
+- Buying power: $200,000.00
+- Daytrade count: 0
+- Positions: 0 | Open orders: 0
+
+### Market Context
+- **WTI / Brent:** WTI $96.17–$96.85 (above $96, +~2% intraday) / Brent $106.73–$107+ — Strait of Hormuz effectively closed amid stalled US–Iran peace talks; Trump reportedly halted negotiations (sources: angle360ng.com, fortune.com, bloomberg.com)
+- **S&P 500 futures:** little changed / slightly lower at 7:40am NY; Dow/S&P/Nasdaq futures fell after Trump halted Iran talks; reversal from earlier in the week (sources: bloomberg.com, benzinga.com, finance.yahoo.com)
+- **VIX:** ~18.84 — back in normal 15–20 band after peaking at 31.05 on Mar 27, 2026 (post-Iran-conflict spike) (source: aol.com, fred.stlouisfed.org)
+- **Earnings before open today (Apr 27):** VZ (raised FY26 guidance, +3.5% pre), DPZ (missed Q1, −10.5% pre), PSA, NUE (sources: tipranks.com, bloomberg.com)
+- **Notable pre-market mover:** MANE (Veradermics) +45% on positive Phase 2/3 trial — biotech, not in our wheelhouse (source: bloomberg.com)
+- **Mag 7 earnings this week:** Wed AMC — MSFT, META, GOOGL, AMZN; Thu AMC — AAPL. ~⅓ of S&P 500 by market cap reporting Wed–Thu (source: fool.com)
+- **Economic calendar (HIGH IMPACT WEEK):**
+  - Mon Apr 27: Durable Goods Orders
+  - Tue Apr 28: Consumer Confidence + Housing
+  - **Wed Apr 29: FOMC (expected hold) + Press Conf + Mag 7 earnings**
+  - Thu Apr 30: GDP advance + PCE + AAPL earnings
+  - Fri May 1: NFP + ISM Manufacturing PMI (Europe/Japan/China closed for Labor Day)
+  (sources: litefinance.org, datasetiq.com)
+- **Sector momentum:**
+  - YTD leaders: **Energy ~+25.3%** (volatile on Iran), Comm Services ~+5.1% (now ahead of SPX)
+  - April MTD: Comm Services ~+13%, Tech ~+12.7%, Consumer Disc ~+10.3% — growth re-leadership after ~9% Iran-war correction (source: schwab.com, rgwealth.com)
+
+### Trade Ideas
+1. **DELL** — AI-server "old tech" rotation thesis intact (Run 2). Entry $130–$135 on dip; stop $119 (−10%); target $158 (+20%); R:R 2:1. Sector: Tech/AI Infra. **Wait for FOMC.**
+2. **NVDA** — Semis tailwind, hyperscaler capex into MSFT/META/GOOGL/AMZN prints Wed. Entry ~$132; stop $119 (−10%); target $158 (+20%); R:R 2:1. **High event risk this week (Mag 7 + FOMC).**
+3. **XOM** — Brent $107+ on Iran tension; Energy YTD leader (+25%). Entry ~$118; stop $106 (−10%); target $142 (+20%); R:R 2:1. **Risk: ceasefire headline collapses oil; size small.**
+
+### Risk Factors
+- **Tooling outage:** Alpaca, Tavily, Telegram all 403 (allowlist). No live execution capability this run — even if a setup triggered, we cannot place orders.
+- **FOMC Wed Apr 29** — dominant binary; rate path / Iran-war commentary
+- **Mag 7 earnings Wed/Thu** — MSFT, META, GOOGL, AMZN, AAPL = ~⅓ of SPX cap; AI capex guidance is the key signal
+- **Iran/Hormuz** — Trump halted talks; closure persists; oil could spike further OR collapse on a deal
+- **GDP advance Thu + NFP Fri** — back-to-back macro
+- VIX 18.8 is benign but levered to a single Iran headline
+
+### Decision
+**HOLD.** Two reinforcing reasons:
+1. **Cannot trade** — Alpaca API blocked this run; no execution path.
+2. **Even if executable, edge is poor today** — futures soft on halted Iran talks, FOMC Wed + Mag 7 earnings Wed/Thu create binary risk; opening into that without a confirmed setup violates "patience > activity."
+
+Plan: market-open routine should re-test API connectivity. If Alpaca recovers and DELL prints $130–$132 with volume, evaluate a 1× starter (≤20% sizing). Otherwise sit. Max 1 new trade this week until FOMC clears Wed PM.
