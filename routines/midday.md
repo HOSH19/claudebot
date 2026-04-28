@@ -51,17 +51,21 @@ STEP 6 — Optional intraday research via Tavily if something is moving
 sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.
 
 STEP 7 — Notification: always send a status.
+Use EXACTLY the matching template below — do NOT rewrite as prose or a
+single sentence. Each action on its own line. Fill in real values.
+
 If action taken:
-  bash scripts/telegram.sh "⚡ Midday $DATE
-─────────────────────
-<• cut SYM at -7% (\$X.XX realized)>
-<• tightened SYM trail stop to X%>
-💼 <N> positions open"
+  bash scripts/telegram.sh "Midday $DATE
+---
+<Cut: SYM at -7% ($X.XX realized)>
+<Tightened: SYM trail stop -> X%>
+Positions: N open"
+
 If no action:
-  bash scripts/telegram.sh "⚡ Midday $DATE
-─────────────────────
-✅ All clear — no cuts, no adjustments
-💼 <N> positions open, all within rules"
+  bash scripts/telegram.sh "Midday $DATE
+---
+All clear — no cuts, no adjustments
+Positions: N open, all within rules"
 
 STEP 8 — COMMIT AND PUSH (if any memory files changed):
   git config user.email "bot@trading-bot"
