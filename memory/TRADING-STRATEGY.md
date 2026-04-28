@@ -25,8 +25,24 @@ Beat the S&P 500 over the challenge window. Stocks only — no options, ever.
 10. Exit a sector after 2 consecutive failed trades
 11. Patience > activity
 
+## Candidate Scoring (min 7/10 to advance to trade idea)
+
+Score each candidate before including it in RESEARCH-LOG. Only ≥7 candidates may become trade ideas.
+
+| # | Factor | 0 | 1 | 2 |
+|---|--------|---|---|---|
+| 1 | Catalyst strength | Vague rumor | Scheduled event | Confirmed catalyst |
+| 2 | Sector rank YTD | Bottom third | Mid third | Top third |
+| 3 | Technical setup (vs 20d SMA) | >10% extended | 5–10% above | At or below |
+| 4 | Volume confirmation | Below avg | 1–1.5× avg | >1.5× avg |
+| 5 | R:R ratio | <1.5 | 1.5–2.0 | >2.0 |
+
+Log format in RESEARCH-LOG per candidate:
+`TICKER | Score: X/10 | Catalyst: N | Sector: N | Setup: N | Volume: N | R:R: N`
+
 ## Entry Checklist
 
+- Candidate scored ≥ 7/10 (required)
 - Specific catalyst?
 - Sector in momentum?
 - Stop level (7-10% below entry)

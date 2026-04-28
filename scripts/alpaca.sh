@@ -62,8 +62,14 @@ case "$cmd" in
   close-all)
     curl -fsS -H "$H_KEY" -H "$H_SEC" -X DELETE "$API/positions"
     ;;
+  bars)
+    sym="${1:?usage: bars SYM [days]}"
+    days="${2:-50}"
+    curl -fsS -H "$H_KEY" -H "$H_SEC" \
+      "$DATA/stocks/$sym/bars?timeframe=1Day&limit=$days&adjustment=split"
+    ;;
   *)
-    echo "Usage: bash scripts/alpaca.sh <account|positions|position|quote|orders|order|cancel|cancel-all|close|close-all> [args]" >&2
+    echo "Usage: bash scripts/alpaca.sh <account|positions|position|quote|orders|order|cancel|cancel-all|close|close-all|bars> [args]" >&2
     exit 1
     ;;
 esac

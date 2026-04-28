@@ -43,7 +43,10 @@ STEP 3 — Research market context via Tavily. Run
 - "Top stock market catalysts today $DATE"
 - "Earnings reports today before market open"
 - "Economic calendar today CPI PPI FOMC jobs data"
-- "S&P 500 sector momentum YTD"
+- "S&P 500 sector ETF performance this week XLK XLE XLF XLV XLI XLB XLU"
+- "analyst stock upgrades today $DATE"
+- "stocks unusual volume breakout today $DATE"
+- "top momentum stocks week ending $DATE"
 - News on any currently-held ticker
 
 If Tavily exits 3 (TAVILY_API_KEY not set), fall back to native
@@ -52,10 +55,33 @@ contains an `answer` field with a synthesized summary plus a `results`
 array of cited sources — quote sources by URL when documenting in the
 research log.
 
+STEP 3b — Generate a candidate pool from the research above (aim for 4-6
+names). For each candidate, score it using the rubric in
+memory/TRADING-STRATEGY.md (0–10, five factors of 0–2 each).
+Log each score inline: `TICKER | Score: X/10 | Catalyst: N | Sector: N | Setup: N | Volume: N | R:R: N`
+Discard any candidate scoring < 7. If no candidates score ≥ 7, decision is HOLD.
+
+STEP 3c — Technical validation for every candidate that scored ≥ 7:
+  bash scripts/alpaca.sh bars TICKER 50
+From the returned bars array compute:
+  - 20-day SMA: average of last 20 closing prices
+  - Distance from SMA: (last_close - sma20) / sma20 × 100 (%)
+  - 5-day momentum: (last_close - close_5_days_ago) / close_5_days_ago × 100 (%)
+  - 20-day avg volume: average of last 20 daily volumes
+  - Volume ratio: today_volume / avg_volume (use premarket volume if bars not yet updated)
+Discard candidate if it fails 2+ of these checks:
+  - Extended >10% above 20d SMA → setup score already 0, likely drop
+  - 5-day momentum negative (downtrend into entry)
+  - Volume ratio < 0.8 (low conviction, no institutional interest)
+Log the computed technicals for each candidate in the RESEARCH-LOG entry.
+
 STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, today's releases)
-- 2-3 actionable trade ideas WITH catalyst + entry/stop/target
+- Sector ETF ranking (list top 3 sectors by week performance)
+- Candidate scoring table (all candidates, scores, pass/fail)
+- 2-3 actionable trade ideas (only from ≥7 scorers that passed tech check)
+  WITH catalyst + entry/stop/target + R:R + score breakdown + technicals
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD — patience > activity)
 
