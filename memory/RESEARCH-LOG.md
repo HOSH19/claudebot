@@ -235,3 +235,15 @@ Plan: market-open routine should re-test API connectivity. If Alpaca recovers an
 - Watch Mag 7 earnings tonight (MSFT, META, GOOGL, AMZN) — if AI capex guidance strong and semis/tech gap up Wed morning, evaluate NVDA or DELL starter (≤10% equity each) AFTER FOMC decision Wed PM
 - Monitor Consumer Confidence at 10 AM; if print below 88 and VIX >22, evaluate defensive entry (KMB or similar)
 - Target: initiate 1–2 positions Thu/Fri once FOMC + Mag 7 dust settles; 75–85% deployment goal remains target by end of week
+
+---
+
+## 2026-04-28 — Midday Addendum
+
+- **Positions:** 0 open | **Orders:** 0 open — Alpaca confirmed live
+- **NVDA:** Hit all-time high of $216.83, surpassing $5.2T market cap — well above pre-market entry thesis ($172–175); no valid entry without chasing a record print 1 day before FOMC + Mag 7
+- **DELL:** Thesis intact; AI-server backlog story unchanged; exact price not confirmed intraday but likely extended from yesterday; still awaiting post-FOMC entry opportunity
+- **Market tone:** S&P 500 +0.1%, Nasdaq mild green; holding pattern ahead of Mag 7 earnings tonight (MSFT, META, GOOGL, AMZN) and FOMC tomorrow
+- **Consumer Confidence (10 AM):** No print available yet; watch for miss below 88 as a warning signal
+- **No action taken:** 0 positions to cut, tighten, or exit; thesis check N/A
+- **Midday verdict: HOLD** — NVDA at record highs invalidates $172–175 entry; FOMC + Mag 7 tonight = maximum binary risk; patience > activity; re-evaluate entry on Wed after FOMC clears
