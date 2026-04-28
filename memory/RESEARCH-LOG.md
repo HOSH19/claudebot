@@ -165,3 +165,64 @@ TRADE or HOLD (default HOLD if no edge)
 2. **Even if executable, edge is poor today** — futures soft on halted Iran talks, FOMC Wed + Mag 7 earnings Wed/Thu create binary risk; opening into that without a confirmed setup violates "patience > activity."
 
 Plan: market-open routine should re-test API connectivity. If Alpaca recovers and DELL prints $130–$132 with volume, evaluate a 1× starter (≤20% sizing). Otherwise sit. Max 1 new trade this week until FOMC clears Wed PM.
+
+---
+
+## 2026-04-28 — Pre-market Research
+
+### Account Snapshot
+- **Equity:** $100,000.00
+- **Cash:** $100,000.00 (100% — fully undeployed)
+- **Buying power:** $200,000.00 (2× margin available)
+- **Daytrade count:** 0
+- **Positions:** 0 | **Open orders:** 0
+
+### Market Context
+- **WTI / Brent:** WTI ~$96–$99 / Brent ~$101–$104 — geopolitical tensions (Iran/Hormuz) supporting elevated oil; slight softening from last week's spike highs (source: businessinsider.com, ifcm.co.uk)
+- **S&P 500 futures:** ~7,195–7,217 (+0.15% to +0.25%) — mildly positive premarket; Dow futures slightly negative (-0.13%); NASDAQ 100 futures +0.17% (source: markets.businessinsider.com, cnn.com)
+- **VIX:** 18.02 (-3.69% from yesterday's 18.71 close) — normal band 15–20; down from 52-wk high of 35.30 on 3/9/26; declining vol is broadly constructive (source: tradingview.com, yahoo finance)
+- **Earnings before open today (Apr 28):** JetBlue (JBLU), Kimberly-Clark (KMB), LGI Homes (LGIH), Mueller Industries (MLI) — no mega-cap names; limited market-moving risk (source: streetinsider.com)
+- **KEY EARNINGS TONIGHT AMC (Apr 29):** MSFT, META, GOOGL, AMZN — ~⅓ of S&P 500 cap; combined 2026 AI capex $610–$650B consensus; AI guidance commentary will be critical signal (source: spglobal.com, reddit.com/r/ValueInvesting)
+- **Economic calendar today:**
+  - 9:00 AM: S&P Case-Shiller home price index
+  - 10:00 AM: **Consumer Confidence (Apr)** — consensus ~91.5–92.6; key read on sentiment (source: marketwatch.com, tradingeconomics.com)
+- **Upcoming this week (HIGH IMPACT):**
+  - Wed Apr 29: FOMC decision (expected hold) + Mag 7 earnings AMC
+  - Thu Apr 30: GDP advance + PCE + AAPL earnings
+  - Fri May 1: NFP + ISM Manufacturing (Europe/Japan/China closed for Labor Day)
+- **Sector momentum YTD:**
+  - Financials and Tech leading YTD; S&P 500 Momentum Index YTD +17.26% (source: spglobal.com)
+  - Energy sector: XOM ~$148–$149 (down from $163 highs); "cracks forming" per analysts (source: phemex.com, stockinvest.us)
+  - Tech / "old tech" rotation: DELL +31.73% 30-day return; AI server speculation active (source: ainvest.com)
+  - S&P 500 on four-week win streak into late April (source: advisorperspectives.com)
+
+### Trade Ideas
+
+1. **DELL** — "Old tech" AI rotation strongest candidate. +31.73% 30-day return, $64B FY2026 AI server backlog, NVDA deal speculation, undervalued on DCF. Entry $135–$140 on a dip/consolidation after open. Stop $122 (−10%). Target $163 (+20%). R:R 2:1. Sector: Tech/AI Infrastructure.
+   - **Risk:** Mag 7 AI capex prints TONIGHT (MSFT, META, GOOGL, AMZN) could move DELL sharply either direction. Wait for post-earnings confirmation Wednesday before sizing in.
+
+2. **NVDA** — Trading in head & shoulders pattern at ~$177; AI secular tailwind intact. Hyperscaler capex $610–$650B in 2026 directly benefits NVDA. Entry ~$172–$175 on intraday pullback. Stop $158 (−9%). Target $212 (+20%). R:R 2.2:1. Sector: Semiconductors.
+   - **Risk:** H&S pattern technically bearish if neckline breaks; FOMC + Mag 7 tonight = binary event. Starter size only (≤10% equity) if entering pre-FOMC.
+
+3. **KMB (Kimberly-Clark)** — Reporting before open today; consumer staples defensive. Only consider entry if earnings beat AND VIX spikes above 22 on macro fear. Do not pre-position. Monitor reaction at open.
+
+### Risk Factors
+- **FOMC Wednesday (Apr 29)** + **Mag 7 earnings tonight** = dominant binary risk window; holding through both is high-uncertainty
+- **GDP Thursday + NFP Friday** — back-to-back macro prints with potential gap risk
+- **VIX at 18 benign** but sensitive to Iran/Hormuz headlines; oil at $97–$104 keeps geopolitical premium elevated
+- **Consumer Confidence at 10 AM today** — miss below 88 could pressure equities into FOMC
+- DELL/NVDA already +30%+ in 30 days — chasing requires volume confirmation; entry near highs is poor R:R without pullback
+- XOM prior thesis ($118 entry) obsolete at $149; energy "cracks forming" per analysts; sector thesis needs reassessment
+- 0 positions, 0 trades this week — max 3 new trades allowed; patience warranted
+
+### Decision
+**HOLD — do NOT trade today.** Four compounding reasons:
+1. **FOMC tomorrow (Apr 29)** + **Mag 7 earnings tonight** = maximum binary risk; opening a new position today means holding blind through both
+2. **DELL/NVDA** already up 30%+ in 30 days — entering on top of momentum without a post-earnings flush is poor R:R vs. strategy rules
+3. **XOM** prior entry thesis ($118) is obsolete at $149; structure needs reassessment before touching
+4. **VIX declining (18), futures mild (+0.15%)** — no discounted entry; no urgency to deploy
+
+**Action plan for the week:**
+- Watch Mag 7 earnings tonight (MSFT, META, GOOGL, AMZN) — if AI capex guidance strong and semis/tech gap up Wed morning, evaluate NVDA or DELL starter (≤10% equity each) AFTER FOMC decision Wed PM
+- Monitor Consumer Confidence at 10 AM; if print below 88 and VIX >22, evaluate defensive entry (KMB or similar)
+- Target: initiate 1–2 positions Thu/Fri once FOMC + Mag 7 dust settles; 75–85% deployment goal remains target by end of week
