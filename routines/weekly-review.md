@@ -62,14 +62,17 @@ STEP 6 — Send ONE Telegram message.
 Use EXACTLY this multi-line format — do NOT rewrite as prose or a single
 sentence. Each field on its own line. Fill in real values; omit nothing.
 
-  bash scripts/telegram.sh "Weekly Review $DATE
----
-Portfolio: \$X | Week: ±X% | Phase: ±X%
-vs S&P 500: ±X%
-Trades: N | W:X L:Y Open:Z
-Best: SYM +X% | Worst: SYM -X%
-Takeaway: <one sentence>
-Grade: <A/B/C/D/F>"
+  bash scripts/telegram.sh "📅 Weekly Review — $DATE
+─────────────────────
+💼 Portfolio: \$X
+📈 Week P&L: ±\$X (±X%) | Phase: ±X%
+📊 vs S&P 500: ±X%
+
+Trades: N | ✅ W:X  ❌ L:Y  ⏳ Open:Z
+🏆 Best: SYM +X% | 💀 Worst: SYM -X%
+
+💡 Takeaway: <one sentence>
+🎓 Grade: <A/B/C/D/F>"
 
 STEP 7 — COMMIT AND PUSH (mandatory):
   git config user.email "bot@trading-bot"

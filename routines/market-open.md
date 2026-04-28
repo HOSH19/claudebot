@@ -62,17 +62,20 @@ Use EXACTLY the matching template below — do NOT rewrite as prose or a
 single sentence. Each field on its own line. Fill in real values.
 
 If trades fired:
-  bash scripts/telegram.sh "Market Open $DATE
----
-BOUGHT: <SYM x N @ $X.XX | trail stop $X.XX>
-Thesis: <one line>
-Cash left: \$X | Positions: N"
+  bash scripts/telegram.sh "🔔 Market Open — $DATE
+─────────────────────
+✅ BOUGHT: SYM ×N @ \$X.XX
+   Stop: \$X.XX (10% trail) | Target: \$X.XX
+💡 <one-line thesis>
+
+💵 Cash: \$X | Positions: N open"
 
 If no trades:
-  bash scripts/telegram.sh "Market Open $DATE
----
-No trades — <one-line reason>
-Positions: N open"
+  bash scripts/telegram.sh "🔔 Market Open — $DATE
+─────────────────────
+⏸ No trades — <one-line reason>
+
+💼 Positions: N open"
 
 STEP 8 — COMMIT AND PUSH (mandatory if any trades executed):
   git config user.email "bot@trading-bot"

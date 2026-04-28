@@ -55,17 +55,19 @@ Use EXACTLY the matching template below — do NOT rewrite as prose or a
 single sentence. Each action on its own line. Fill in real values.
 
 If action taken:
-  bash scripts/telegram.sh "Midday $DATE
----
-<Cut: SYM at -7% ($X.XX realized)>
-<Tightened: SYM trail stop -> X%>
-Positions: N open"
+  bash scripts/telegram.sh "⚡ Midday — $DATE
+─────────────────────
+🔴 Cut: SYM @ \$X.XX | P&L: -\$X (-X%)
+🔧 Tightened: SYM trail → X% (was 10%)
+
+💼 Positions: N open"
 
 If no action:
-  bash scripts/telegram.sh "Midday $DATE
----
-All clear — no cuts, no adjustments
-Positions: N open, all within rules"
+  bash scripts/telegram.sh "⚡ Midday — $DATE
+─────────────────────
+✅ All clear — no cuts, no adjustments
+
+💼 Positions: N open, all within rules"
 
 STEP 8 — COMMIT AND PUSH (if any memory files changed):
   git config user.email "bot@trading-bot"

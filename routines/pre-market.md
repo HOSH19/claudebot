@@ -63,12 +63,14 @@ STEP 5 — Notification: always send the pre-market summary.
 Use EXACTLY this multi-line format — do NOT rewrite as prose or a single
 sentence. Each field on its own line. Fill in real values; omit nothing.
 
-  bash scripts/telegram.sh "Pre-Market $DATE
----
-Equity: \$X | Cash: \$X | DT used: N
-VIX: X | SPX futs: ±X%
-Ideas: <tickers, or NONE>
-Decision: <TRADE: tickers | HOLD — one-line reason>"
+  bash scripts/telegram.sh "🌅 Pre-Market — $DATE
+─────────────────────
+💼 Equity: \$X | Cash: \$X | DT: N
+📊 VIX: X | SPX futs: ±X%
+
+Ideas: <TICKER, TICKER — or NONE>
+
+📋 Decision: <TRADE: tickers | HOLD — one-line reason>"
 
 STEP 6 — COMMIT AND PUSH (mandatory):
   git config user.email "bot@trading-bot"
