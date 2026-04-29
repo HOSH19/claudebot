@@ -30,6 +30,17 @@ No positions yet. Bot launches tomorrow.
 
 ---
 
+### Apr 29 — EOD Snapshot (Day 3, Wednesday)
+**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** +$0.00 (+0.00%) | **Phase P&L:** +$0.00 (+0.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Day 3 final EOD. No positions entered, no orders placed. Equity flat at $100,000.00. 0/3 trades used this week. Three sessions in, bot remains in cash — no setups have cleared the ≥7/10 scoring gate. Pre-market Thursday will prioritize catalyst screens and sector momentum to identify the first qualifying entry. Patience preserved over forced activity.
+
+---
+
 <!--
 Append new entries below. Two kinds of entries get added here:
 
