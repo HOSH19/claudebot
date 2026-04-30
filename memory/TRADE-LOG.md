@@ -19,14 +19,16 @@ No positions yet. Bot launches tomorrow.
 
 ---
 
-### Apr 28 — EOD Snapshot (Day 2, Tuesday)
-**Portfolio:** $100,000.00 | **Cash:** $100,000.00 (100%) | **Day P&L:** +$0.00 (+0.00%) | **Phase P&L:** +$0.00 (+0.00%)
-
-| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
-|--------|--------|-------|-------|---------|----------------|------|
-| — | — | — | — | — | — | — |
-
-**Notes:** Day 2 final EOD. No positions entered, no orders placed. Equity flat at $100,000.00 — unchanged from open. 0/3 trades used this week. Bot is operational and scanning for high-conviction momentum setups; no qualifying entries identified today. Pre-market tomorrow will focus on sector momentum signals and catalyst screens to identify first live entries.
+### 2026-04-30 — BUY NVDA
+- Shares: 96
+- Entry: $207.15
+- Stop: $186.15 (10% trailing, GTC — order id db9a0e69)
+- Target: $248.58 (+20%)
+- Thesis: Mag7 earnings (MSFT Azure +26% YoY, AMZN AWS) confirm AI capex cycle intact; FOMC held rates (cleared); GDP +2.2% solid; VIX declining; semis sector leading
+- Catalyst: MSFT/AMZN Apr 29 earnings beat; AI infrastructure capex confirmed
+- Sector: Semiconductors/AI
+- R:R: 2.0:1
+- Order ID: 3ef8821f-740d-440b-b199-cb93e0d5c9d0
 
 ---
 
