@@ -13,7 +13,8 @@
       "Bash(git status*)",
       "Bash(git diff*)",
       "Bash(date*)",
-      "Bash(chmod +x scripts/*.sh)"
+      "Bash(chmod +x scripts/*.sh)",
+      "Bash(grep -rn \"10,000\\\\|10k\\\\|\\\\$10k\" /Users/hoshuhan/Documents/passion/trading/claudebot/ --include=\"*.md\" -l)"
     ],
     "deny": []
   }

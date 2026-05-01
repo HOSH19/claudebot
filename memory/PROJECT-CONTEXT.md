@@ -3,10 +3,11 @@
 ## Overview
 
 - What: Autonomous trading bot challenge
-- Starting capital: ~$10,000
+- Starting capital: ~$100,000 (paper account)
 - Platform: Alpaca
 - Runtime: Cursor Automations (Cloud Agents) running Claude 4.7 Opus
 - Duration: [your challenge window]
+- Environment: Paper trading
 - Strategy: Swing trading stocks, no options
 
 ## Rules

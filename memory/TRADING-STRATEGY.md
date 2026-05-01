@@ -16,7 +16,7 @@ Only trade symbols from this list. No exceptions.
 
 ## Capital & Constraints
 
-- Starting capital: ~$10,000
+- Starting capital: ~$100,000 (paper account)
 - Platform: Alpaca
 - Instruments: Stocks ONLY (universe above)
 - PDT limit: 3 day trades per 5 rolling days (account < $25k)
