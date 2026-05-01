@@ -37,12 +37,14 @@ Check bid/ask spread; skip anything halted or with a wide/zero spread.
 
 STEP 3 — Hard-check rules BEFORE every order. Skip any trade that fails
 and log the reason:
-- Total positions after trade <= 6
+- Symbol is in the 20-symbol universe (AAPL MSFT GOOGL AMZN NVDA META TSLA AMD AVGO TSM JPM GS V MA XOM CVX UNH JNJ SPY QQQ)
+- Total positions after trade <= 10
 - Trades this week <= 3
-- Position cost <= 20% of equity
+- Position cost <= 8% of equity
 - Position cost <= available cash
 - Catalyst documented in today's RESEARCH-LOG
 - daytrade_count leaves room (PDT: 3/5 rolling business days)
+- Portfolio equity has NOT dropped 10%+ from today's session-start equity (if so, halt all buys)
 
 STEP 4 — Execute the buys (market orders, day TIF):
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'

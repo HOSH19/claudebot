@@ -55,9 +55,11 @@ contains an `answer` field with a synthesized summary plus a `results`
 array of cited sources — quote sources by URL when documenting in the
 research log.
 
-STEP 3b — Generate a candidate pool from the research above (aim for 4-6
-names). For each candidate, score it using the rubric in
-memory/TRADING-STRATEGY.md (0–10, five factors of 0–2 each).
+STEP 3b — Generate a candidate pool from the fixed 20-symbol universe ONLY
+(AAPL MSFT GOOGL AMZN NVDA META TSLA AMD AVGO TSM JPM GS V MA XOM CVX UNH JNJ SPY QQQ).
+Do NOT consider symbols outside this list.
+For each candidate, score it using the rubric in memory/TRADING-STRATEGY.md
+(0–10, five factors of 0–2 each).
 Log each score inline: `TICKER | Score: X/10 | Catalyst: N | Sector: N | Setup: N | Volume: N | R:R: N`
 Discard any candidate scoring < 7. If no candidates score ≥ 7, decision is HOLD.
 

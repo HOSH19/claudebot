@@ -32,7 +32,13 @@ STEP 2 — Pull current state:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh orders
 
-STEP 3 — Cut losers immediately. For every position where
+STEP 3 — Portfolio DD halt check. Compare current equity to session-start
+equity (from today's RESEARCH-LOG account snapshot). If drop >= 10%:
+- Send Telegram alert: "🛑 Portfolio DD halt — equity down X% today. No new buys."
+- Cancel any pending buy orders. Do NOT close existing positions.
+- Skip STEP 4 buy logic in market-open if still active.
+
+STEP 3b — Cut losers immediately. For every position where
 unrealized_plpc <= -0.07:
   bash scripts/alpaca.sh close SYM
   bash scripts/alpaca.sh cancel ORDER_ID   # cancel its trailing stop

@@ -28,14 +28,15 @@ Defined in `routines/`. Five scheduled Claude Code remote agents per trading day
 ## Strategy Hard Rules (quick reference)
 
 - NO OPTIONS — ever.
-- Max 5-6 open positions.
-- Max 20% per position.
+- Universe: 20 symbols only (see TRADING-STRATEGY.md).
+- Max 10 open positions, max 8% each.
 - Max 3 new trades per week.
-- 75-85% capital deployed.
+- 80% capital deployed (target).
 - 10% trailing stop on every position as a real GTC order.
 - Cut losers at -7% manually.
 - Tighten trail to 7% at +15%, to 5% at +20%.
 - Never within 3% of current price. Never move a stop down.
+- Portfolio DD halt: stop new buys if equity drops 10% from session-start.
 - Follow sector momentum. Exit a sector after 2 failed trades.
 - Patience > activity.
 
