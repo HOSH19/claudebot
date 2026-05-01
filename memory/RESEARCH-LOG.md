@@ -247,3 +247,110 @@ Plan: market-open routine should re-test API connectivity. If Alpaca recovers an
 - **Consumer Confidence (10 AM):** No print available yet; watch for miss below 88 as a warning signal
 - **No action taken:** 0 positions to cut, tighten, or exit; thesis check N/A
 - **Midday verdict: HOLD** — NVDA at record highs invalidates $172–175 entry; FOMC + Mag 7 tonight = maximum binary risk; patience > activity; re-evaluate entry on Wed after FOMC clears
+
+---
+
+## 2026-05-01 — Pre-market Research
+
+### Account Snapshot
+- **Equity:** $99,357.74 (−$642 from $100K — NVDA position underwater)
+- **Cash:** $80,113.58
+- **Buying power:** $179,471.32 (2× margin)
+- **Daytrade count:** 0
+- **Positions:** 1 — NVDA 96 shares @ $207.15 avg, current $200.46, unrealized −$642 (−3.23%)
+- **Open orders:** 1 — NVDA GTC 10% trailing stop, HWM $206.99, stop $186.29
+
+### Market Context
+- **WTI / Brent:** WTI ~$105–$106 / Brent ~$111 — multi-year highs; Iran war / Hormuz disruption driving sustained supply shock; up from $96–99 last week (source: markets.businessinsider.com, bloomberg.com)
+- **S&P 500 futures:** +0.17% at 7,256.25; NASDAQ 100 futures +0.07% — mild green open (source: markets.businessinsider.com, cnn.com)
+- **VIX:** ~16.89–17.11 (−10% from yesterday) — declining volatility, constructive; 52-wk high was 35.30 on 3/9/26 (source: tradingview.com, markets.businessinsider.com)
+- **Mag 7 results (Apr 28–30 AMC):**
+  - GOOGL: Revenue +22% to $109.9B; Cloud +63% to $20B — massive beat; stock +9.96% (source: cnbc.com, investing.com)
+  - AMZN: EPS $2.78 (beat $1.65), Revenue +17% to $181.5B, AWS +28% — beat across board; stock +0.77% muted on $200B capex plan (source: cnbc.com, coindcx.com)
+  - AAPL: Q2 revenue $111.2B (+17%), EPS $2.01 (beat $1.94 est.) — record March quarter; stock reaction TBD; new CEO John Ternus (Tim Cook stepping down); warns of memory crunch (source: 9to5mac.com, cnbc.com)
+  - MSFT: −3.93% on AI capex concerns (source: perplexity.ai)
+  - META: −8.55% on AI capex concerns + Reality Labs losses (source: perplexity.ai)
+- **S&P 500 / Nasdaq:** Logged biggest monthly gains in years in April despite Middle East war and Mag 7 AI capex fears (source: freemalaysiatoday.com)
+- **NVDA news:** Down ~4% on Apr 30 (OpenAI missed internal revenue targets; NVDA AI chip demand questions); pre-market today ~$210.23 (+4.9% recovery); analyst consensus Strong Buy, avg target $266.24; May 20 earnings upcoming; Motley Fool: "NVDA will skyrocket after May 20" (source: tipranks.com, stockanalysis.com, fool.com)
+- **Earnings before open today (May 1):** No major names from our universe
+- **Economic calendar:** ISM Manufacturing PMI (May 1, likely 10:00 AM) — Europe/Japan/China closed (Labor Day). NFP (April data) scheduled for May 8 (not today as previously expected) (source: investing.com)
+- **Sector momentum this week:** XLK +1.3% | XLE +0.5% | XLF −0.2% — Tech leading, Energy mixed, Financials slight drag (source: barchart.com, countryetftracker.com)
+- **Top sectors YTD:** Tech (XLK) leading; S&P 500 Momentum Index YTD +17.26%
+
+### Candidate Scoring (20-symbol universe)
+Only candidates from: AAPL MSFT GOOGL AMZN NVDA META TSLA AMD AVGO TSM JPM GS V MA XOM CVX UNH JNJ SPY QQQ
+
+| Ticker | Score | Catalyst | Sector | Setup | Volume | R:R | Pass? |
+|--------|-------|----------|--------|-------|--------|-----|-------|
+| NVDA | **9/10** | 2 (AI capex confirmed + May 20 earn.) | 2 (semis/tech top) | 1 (recovering from gap-down, ~5–10% above 20d SMA est.) | 2 (high on selloff + recovery) | 2 ($266 target, 2.7:1) | ✓ (position full) |
+| GOOGL | 7/10 | 2 (massive cloud beat +22%/+63%) | 2 (tech top) | 0 (>9.96% gap = extended >10% above SMA) | 2 (post-earnings surge) | 1 (poor R:R after gap) | ✗ (fails tech: extended + poor R:R) |
+| AAPL | 7/10 | 2 (Q2 beat, new CEO) | 2 (tech top) | 1 (bars unavailable, post-earn. est.) | 1 (post-earn. elevated est.) | 1 (uncertain w/o bar data) | ✗ (bars null — cannot validate) |
+| AMZN | 7/10 | 1 (beat, but capex overhang) | 2 (cloud/tech) | 1 (muted +0.77% = near SMA est.) | 2 (post-earnings) | 1 (muted reaction = unclear direction) | ✗ (bars null — cannot validate) |
+| MSFT | 3/10 | 0 (−3.93% on AI capex concerns) | 2 | 0 (declining post-earn.) | 1 | 0 | ✗ DISCARD |
+| META | 2/10 | 0 (−8.55% on capex + RL losses) | 2 | 0 | 1 | 0 | ✗ DISCARD |
+| AMD | 6/10 | 1 (AI chip halo) | 2 | 1 | 1 | 1 | ✗ DISCARD (<7) |
+| AVGO | 6/10 | 1 (AI networking) | 2 | 1 | 1 | 1 | ✗ DISCARD (<7) |
+| XOM | 6/10 | 2 (oil $105+) | 1 (energy YTD mixed) | 1 | 2 | 0 (R:R <1.5 given "cracks forming") | ✗ DISCARD (<7) |
+| TSM | 5/10 | 1 | 2 | 1 | 0 | 1 | ✗ DISCARD (<7) |
+| CVX | 5/10 | 2 | 1 | 1 | 1 | 0 | ✗ DISCARD (<7) |
+| TSLA | 2/10 | 0 | 1 | 1 | 0 | 0 | ✗ DISCARD |
+| JPM/GS/V/MA | 2/10 | 0 | 1 | 1 | 0 | 0 | ✗ DISCARD |
+| UNH/JNJ | 2/10 | 0 | 1 | 1 | 0 | 0 | ✗ DISCARD |
+| SPY/QQQ | 4/10 | 0 | 2 | 1 | 1 | 0 | ✗ DISCARD |
+
+*Note: Alpaca bars API returned null for all symbols (NVDA, AMD, AVGO) — pre-market data unavailable. Technical checks estimated from web research.*
+
+### Technical Validation (≥7 scorers only)
+
+**NVDA** (bars null — using research data):
+- Pre-market price: ~$210.23 (+4.9% from $200.46 Apr 30 close)
+- Apr 28 ATH: $216.83; Apr 30 close: $200.46 (−7.6% from ATH)
+- Est. 20d SMA: ~$185–195 (was $172–175 area 2 weeks ago, rallied to $216 ATH) → distance est. +8–10% above SMA = borderline/setup score 1
+- 5-day momentum: $172–175 → $200 (positive) ✓
+- Volume: Elevated Apr 30 on selloff; pre-market recovery — conviction present ✓
+- Technical result: **PASS** (1/3 possible fails, not 2+) — but position already full (19.4% of equity = near 20% cap)
+
+**GOOGL** (bars null — using research data):
+- Post-earnings gap: +9.96% from pre-earnings close (~$350 est. → ~$385)
+- Extended >10% above 20d SMA (SMA likely ~$340–350 pre-earnings) ✓ FAILS
+- R:R at $385 entry: Stop $346 (−10%), target $420? = $35 up / $39 down = 0.9:1 ✓ FAILS
+- Technical result: **FAIL 2+ checks** → DISCARD
+
+**AAPL** (bars null):
+- Price data unavailable for technical validation
+- "Memory crunch" warning + CEO transition = additional uncertainty
+- Technical result: **CANNOT VALIDATE** → HOLD pending data
+
+**AMZN** (bars null):
+- Price ~$265 (+0.77% post-earnings = muted reaction)
+- Muted reaction suggests near fair value/SMA → neutral setup
+- Volume elevated post-earnings, but direction unclear
+- Technical result: **CANNOT VALIDATE** → HOLD pending data
+
+### Trade Ideas (no actionable entries today)
+
+1. **NVDA (HOLD existing)** — Position 96 shares, avg $207.15, 19.4% of equity. Pre-market recovery to ~$210. Catalyst: confirmed $610–650B hyperscaler AI capex + May 20 earnings. Trailing stop maintained (HWM $206.99, stop $186.29). No add — at 20% position limit. (source: fool.com, stockanalysis.com)
+   - Monitor: If NVDA consolidates $205–215 this week and bars confirm technical setup, evaluate add AFTER May 20 earnings
+
+2. **GOOGL (watchlist only)** — Cloud dominance confirmed (Q1 Cloud +63%, backlog $460B). Thesis very strong but stock just gapped +10% = extended entry. Wait for consolidation back toward $355–365 range (7–10% pullback from gap high) before evaluating. R:R improves materially at lower entry.
+
+3. **AAPL (watchlist only)** — Strong Q2 beat ($111.2B rev, EPS beat), new CEO (Ternus), AI strategy pivot upcoming. Negative: memory crunch warning, CEO uncertainty. Wait for post-earnings price action to stabilize; evaluate entry if stock holds gains and bars confirm 20d SMA proximity.
+
+### Risk Factors
+- **Oil at multi-year highs** ($106 WTI / $111 Brent) — Iran war ongoing; any de-escalation could cause a sharp drop in energy and mixed impact on broader equities
+- **"Sell in May" seasonal pattern** — S&P 500 logged best April in years; rotation/profit-taking possible in May
+- **MSFT/META AI capex fear** — if AI spending concerns spread to NVDA (OpenAI revenue miss already pressured NVDA Apr 30), could re-test $186 stop
+- **AAPL memory crunch + CEO transition** — unknown near-term price impact; Tim Cook departure a significant leadership overhang
+- **NFP May 8** — next big macro binary; weak jobs data could pressure growth stocks
+- **NVDA at −3.23% unrealized** — approaching −7% manual cut rule (still has $14 cushion from stop); stop at $186.29 provides structural protection
+- **Europe/Japan/China closed today** — thinner liquidity; potential for exaggerated moves on US-only market
+
+### Decision
+**HOLD — no new positions.** Reasons:
+1. NVDA at 19.4% equity = position limit; cannot add without violating 20% cap
+2. GOOGL: Technically extended >10% above SMA post-gap; R:R <1.0 at current price; rule-based discard
+3. AAPL/AMZN: Bars null from Alpaca; cannot complete technical validation required by strategy; patience > rushing incomplete setups
+4. Seasonal risk ("sell in May") + oil spike tail risk + thinner liquidity (global markets closed)
+5. Only week 1 of trading — 0/3 trades used this week; preserve firepower for high-confidence setups
+
+**Watchlist for next week:** GOOGL pullback to $355–365, NVDA pre-earnings setup (May 20), AAPL stabilization post-earnings. NFP May 8 = next major macro gate.
