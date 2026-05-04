@@ -458,3 +458,30 @@ Only candidates from: AAPL MSFT GOOGL AMZN NVDA META TSLA AMD AVGO TSM JPM GS V 
 5. Market near all-time highs with Goldman "froth" warning = risk/reward for new entries not ideal today
 
 **Watchlist this week:** AAPL (primary — validate bars at open); AMD post-earnings May 6; NVDA recapture of $206.99 HWM. If FOMC benign (hold rates), reassess AAPL entry mid-week.
+
+---
+
+## 2026-05-04 — Midday Addendum
+
+### Account Snapshot (midday)
+- Equity: $99,113.38 | Cash: $72,374.94 | DT count: 1
+- Session-start equity: $99,164.92 | Drop: −$51.54 (−0.05%) — **no DD halt**
+
+### Positions
+| Symbol | Shares | Avg Entry | Current | Unrealized P&L | Today | Stop | Status |
+|--------|--------|-----------|---------|----------------|-------|------|--------|
+| AAPL | 28 | $276.38 | $277.03 | +$18.06 (+0.23%) | −1.11% | 10% trail, HWM $278, stop $250.20 | Thesis intact |
+| NVDA | 96 | $207.15 | $197.63 | −$913.95 (−4.60%) | −0.41% | 10% trail, HWM $206.99, stop $186.29 | Thesis intact |
+
+### Actions Taken
+- **No cuts** — AAPL +0.23%, NVDA −4.60%; neither at −7% threshold
+- **No stop tightening** — neither position at +15%/+20% winner threshold
+- **No thesis breaks** — AAPL in $272–278 target zone; NVDA thesis (AI capex cycle, May 20 earnings) intact despite intraday softness
+
+### Intraday Notes
+- NVDA mild selling (−0.41% today) consistent with pre-market risk factor (GOOGL/AMZN in-house chip competition); not a new development; stop $186.29 provides structural protection
+- AAPL down −1.11% today but holding above entry ($276.38); still in thesis zone
+- AMD earnings TOMORROW (May 5) after close — expect semiconductor sector volatility; watch NVDA stop $186.29 closely
+- FOMC decision Wednesday — no new buys until after rate decision
+
+### Midday Verdict: HOLD — no action required
