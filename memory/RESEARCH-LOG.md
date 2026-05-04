@@ -101,7 +101,7 @@ TRADE or HOLD (default HOLD if no edge)
 3. **XOM** — Oil WTI ~$96/Brent ~$107 on sustained Middle East risk, energy sector momentum confirmed. Entry ~$118, stop $106 (-10%), target $142 (+20%), R:R 2:1. Sector: Energy. More direct play than XLE ETF.
 
 ### Risk Factors
-- **FOMC Wednesday** is the dominant risk — hold off on full position sizing until after the decision; rate surprises or hawkish commentary can reverse gains instantly
+- **FOMC Wednesday (Apr 29)** is the dominant risk — hold off on full position sizing until after the decision; rate surprises or hawkish commentary can reverse gains instantly
 - **GDP Thursday + NFP Friday** — back-to-back macro prints; headline risk throughout the week
 - Durable Goods Orders today could set early tone
 - VZ earnings before open — telecom sector read-through (minor)
@@ -339,7 +339,7 @@ Only candidates from: AAPL MSFT GOOGL AMZN NVDA META TSLA AMD AVGO TSM JPM GS V 
 ### Risk Factors
 - **Oil at multi-year highs** ($106 WTI / $111 Brent) — Iran war ongoing; any de-escalation could cause a sharp drop in energy and mixed impact on broader equities
 - **"Sell in May" seasonal pattern** — S&P 500 logged best April in years; rotation/profit-taking possible in May
-- **MSFT/META AI capex fear** — if AI spending concerns spread to NVDA (OpenAI revenue miss already pressured NVDA Apr 30), could re-test $186 stop
+- **MSFT/META AI capex fear** — if AI spending concerns spread to NVDA (OpenAI missed internal revenue targets; NVDA AI chip demand questions), could re-test $186 stop
 - **AAPL memory crunch + CEO transition** — unknown near-term price impact; Tim Cook departure a significant leadership overhang
 - **NFP May 8** — next big macro binary; weak jobs data could pressure growth stocks
 - **NVDA at −3.23% unrealized** — approaching −7% manual cut rule (still has $14 cushion from stop); stop at $186.29 provides structural protection
@@ -354,3 +354,107 @@ Only candidates from: AAPL MSFT GOOGL AMZN NVDA META TSLA AMD AVGO TSM JPM GS V 
 5. Only week 1 of trading — 0/3 trades used this week; preserve firepower for high-confidence setups
 
 **Watchlist for next week:** GOOGL pullback to $355–365, NVDA pre-earnings setup (May 20), AAPL stabilization post-earnings. NFP May 8 = next major macro gate.
+
+---
+
+## 2026-05-04 — Pre-market Research
+
+### Account Snapshot
+- Equity: $99,164.92 | Cash: $80,113.58 | Buying Power: $179,278.50
+- Long Market Value: $19,051.34 | DT count: 0 (week 2, 0/3 trades used)
+- Open position: NVDA 96 shares @ $207.15 avg | Current $198.50 | Unrealized: −$830.42 (−4.18%)
+- Open order: NVDA trailing stop 10%, HWM $206.99, stop price $186.29 (GTC)
+
+### Market Context
+- **Oil:** WTI $110.34 | Brent $109.88 (+1.58% today) — Iran war driving sustained elevated prices (source: tradingeconomics.com, statista.com)
+- **VIX:** 16.99 (+0.59%) — mild, not stressed (source: investing.com, ycharts.com)
+- **SPX:** Near all-time highs above 7,100; Goldman Sachs warns of "froth" and "unsustainable" rally (source: investing.com); IBD notes "Stocks Solid As Rally Continues to Gain Steam" (source: youtube.com/ibd)
+- **NVDA pre-market:** −0.6% — competition concerns from GOOGL/AMZN cloud chip development (source: marketchameleon.com)
+- **AMD pre-market:** +1.71% — earnings tomorrow May 5 after close; expected ±8% swing (source: tradersunion.com, investopedia.com)
+
+### Today's Releases
+- **Mon May 4:** Employment Trends Index 10am ET (Conference Board; exp. ~109.8)
+- **Tue May 5:** JOLTS (March), ISM Services PMI (April)
+- **Wed May 6:** Durable Goods, Housing Starts, **FOMC decision** (meeting starts today)
+- No CPI/PPI this week; next NFP not this week
+- **Earnings (universe):** None pre-market today; AMD after close tomorrow May 5
+
+### Earnings Notes (universe)
+- **AAPL (reported Apr 30/May 1):** Q2 beat — revenue, EPS beat; "surprisingly strong revenue forecast"; +3.43% on earnings day. Multiple analyst upgrades: TD Cowen PT ↑$335, UBS PT ↑$296, Morgan Stanley raised PT. "Best of the Bunch" per top investor (source: cnn.com/markets/stocks/AAPL via TipRanks)
+- **XOM (reported Apr 30):** Q1 miss — EPS $1.00 vs $1.76 YoY; $4B "timing effect" from hedges (source: cnbc.com); revenue miss $81.1B vs $83.2B
+- **CVX (reported May 1):** Q1 EPS $1.11/share vs $2.00 YoY; stock −0.9% earnings day; +1.39% today; CEO: "carrying strong momentum into Q2" (source: fool.com, marketchameleon.com)
+
+### Sector ETF Ranking (YTD as of May 1)
+1. **XLE +32.49%** (Energy — top tier)
+2. **XLK +12.57%** (Tech — top tier)
+3. **XLI +11.81%** (Industrials — top tier)
+4. XLU +9.80% | XLP +8.96% | SPY +5.97%
+5. XLF −4.72% (Finance — bottom)
+6. XLV −5.84% (Healthcare — worst YTD)
+
+(source: totalrealreturns.com)
+
+### Candidate Scoring (20-symbol universe)
+
+| Ticker | Score | Catalyst | Sector | Setup | Volume | R:R | Pass? |
+|--------|-------|----------|--------|-------|--------|-----|-------|
+| NVDA | **7/10** | 1 (AI demand vs GOOGL/AMZN chip competition) | 2 (XLK top) | 1 (−4.18% from avg, recovering; ~5-10% from HWM) | 2 (elevated) | 1 (stop $186.29 = −6.1% from current) | HOLD existing — cannot add |
+| AAPL | **8/10** | 2 (confirmed Q2 beat + 3 analyst upgrades; PT $296–$335) | 2 (XLK top) | 1 (est. 5–10% above 20d SMA; bars null) | 1 (post-earnings elevated) | 2 (entry ~$290, stop ~$270, target $335 → 2.25:1) | ✗ Bars null — cannot validate |
+| GOOGL | 6/10 | 2 (Q1 cloud beat +63%) | 2 (XLK top) | 0 ($385 est. >10% above SMA ~$330) | 2 | 0 (R:R <1 at $385) | ✗ DISCARD |
+| AMD | 6/10 | 1 (earnings scheduled May 5, ±8% binary) | 2 (XLK top) | 0 (~$342, overbought near $355 resistance) | 2 | 1 (binary event) | ✗ DISCARD <7 |
+| CVX | 6/10 | 1 (adj. EPS beat; oil $110; Q2 momentum guided) | 2 (XLE top) | 1 (energy sector momo) | 1 | 1 | ✗ DISCARD <7 |
+| XOM | 5/10 | 0 (EPS miss; $4B timing effect loss) | 2 (XLE top) | 1 | 1 | 1 | ✗ DISCARD <7 |
+| AMZN | 5/10 | 1 (cloud beat; capex overhang) | 2 (tech) | 1 | 1 | 0 | ✗ DISCARD |
+| TSM | 5/10 | 1 (AI chip halo) | 2 | 1 | 0 | 1 | ✗ DISCARD |
+| AVGO | 5/10 | 1 (AI networking) | 2 | 1 | 0 | 1 | ✗ DISCARD |
+| MSFT | 3/10 | 0 (−3.93% capex fear) | 2 | 0 | 1 | 0 | ✗ DISCARD |
+| META | 3/10 | 0 (−8.55% capex + RL losses) | 2 | 0 | 1 | 0 | ✗ DISCARD |
+| TSLA | 2/10 | 0 | 1 | 1 | 0 | 0 | ✗ DISCARD |
+| JPM/GS/V/MA | 2/10 | 0 | 0 (XLF −4.72%) | 1 | 0 | 1 | ✗ DISCARD |
+| UNH/JNJ | 1/10 | 0 | 0 (XLV −5.84%) | 1 | 0 | 0 | ✗ DISCARD |
+| SPY/QQQ | 4/10 | 0 | 2 | 1 | 1 | 0 | ✗ DISCARD |
+
+### Technical Validation (≥7 scorers only)
+
+**NVDA** (bars null — research-based):
+- Current: $198.50 | Pre-market: ~$197 (−0.6%)
+- Est. 20d SMA: ~$190–195 (rallied from ~$172–175 low in early April to ATH $216.83, now retraced)
+- Distance from SMA: ~+2–5% above → PASS (not extended)
+- 5-day momentum: Closed Apr 30 at $200.46, current $198.50 → slightly negative → FLAG (borderline)
+- Volume: Elevated on ATH approach + selloff; ongoing conviction
+- Technical: **1/3 fails** — PASS but position full (19.2% equity); no add possible
+
+**AAPL** (bars null — research-based):
+- Post-earnings close ~$290 est. (base ~$265 in March + 3.43% earnings surge + week of gains)
+- Est. 20d SMA: ~$272–278 (lags post-earnings gap)
+- Distance from SMA: ~+5–7% → PASS (not >10% extended)
+- 5-day momentum: +3.43% earnings day + analyst upgrade momentum → POSITIVE ✓
+- Volume ratio: Unknown — bars null; cannot confirm institutional volume
+- Technical: **Cannot fully validate** (bars null) — 2 checks pass, 1 unresolvable
+- Result: **CANNOT CONFIRM** → HOLD pending data
+
+### Trade Ideas
+
+1. **NVDA (HOLD existing position)** — 96 shares, avg $207.15, 19.2% of equity. AI chip demand intact; NVDA +0.71% Friday despite GOOGL/AMZN competition noise. Trailing stop $186.29 provides structural protection. Pre-market weakness (−0.6%) = watch FOMC reaction Wed + AMD earnings Thu. Cannot add without violating position limit. Monitor: if NVDA recaptures HWM $206.99, stop auto-tightens.
+
+2. **AAPL (watchlist — entry candidate this week)** — Q2 beat + 3 analyst upgrades (TD Cowen $335, UBS $296, MS raised). "Best of the Bunch" sentiment. Score 8/10. Est. setup score 1 (5–7% above SMA). R:R 2.25:1 if entry ~$290, stop $270, target $335. Blocked today: bars null. Entry trigger: confirm setup with live bars when market opens (≤10% above 20d SMA + volume ≥0.8× avg). 0/3 trades used this week — bandwidth available.
+
+3. **AMD (watchlist — post-earnings, NOT before)** — Earnings May 5 after close, ±8% swing expected. Strategy prohibits entering binary-event setups with poor R:R certainty. Evaluate May 6 morning if AMD reports strong Q1 + guides higher for Q2; score could reach 8–9 post-catalyst.
+
+### Risk Factors
+- **FOMC Wednesday** — rate decision could spike VIX and pressure growth stocks; hold sizing until Wednesday resolution
+- **AMD ±8% earnings swing (May 5)** — semiconductor sector volatility could drag NVDA; watch $186.29 stop
+- **Goldman Sachs "froth" warning** — S&P at 7,100+ historically vulnerable to rotation/profit-taking
+- **NVDA at −4.18% unrealized** — approaching but not near −7% manual cut rule; stop at $186.29 (still $12.21 / −6.1% cushion from current); do NOT chase if it drops further before FOMC
+- **Oil $110 WTI** — sustained above $100 risks demand destruction + broader inflation re-acceleration
+- **Bars API null (all symbols)** — Alpaca pre-market data unavailable; cannot fully validate any technical entry; wait for open
+
+### Decision
+**HOLD — no new positions today.**
+1. AAPL scored 8/10 but bars null → cannot satisfy technical validation requirement; entry deferred to intraday if bars available post-open
+2. AMD: score 6 (<7) + earnings binary risk tomorrow → rule-based discard
+3. NVDA: existing position intact, stop healthy; cannot add (19.2% equity)
+4. FOMC this week = macro risk gate; prefer to see rate decision before adding exposure
+5. Market near all-time highs with Goldman "froth" warning = risk/reward for new entries not ideal today
+
+**Watchlist this week:** AAPL (primary — validate bars at open); AMD post-earnings May 6; NVDA recapture of $206.99 HWM. If FOMC benign (hold rates), reassess AAPL entry mid-week.
