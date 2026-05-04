@@ -30,6 +30,17 @@ No positions yet. Bot launches tomorrow.
 
 ---
 
+### 2026-05-04 — BUY AAPL
+- Shares: 28
+- Entry: $276.38
+- Stop: 10% trailing | HWM $276.39 | Current stop $248.75
+- Target: $331.66 (+20%)
+- Thesis: Post-earnings pullback to 20d SMA zone ($272–278); bars confirmed volume >2× avg pace; clean setup after Q2 beat
+- Catalyst: Q2 revenue beat ($111.2B rev, EPS $2.01 vs $1.94 est.); TD Cowen PT↑$335, UBS PT↑$296, Morgan Stanley PT raised
+- Sector: Tech (XLK +12.57% YTD — top tier)
+- R:R: 2.0:1
+- Order ID: bf725f63 (buy) | 7588351f (trailing stop)
+
 <!--
 Append new entries below. Two kinds of entries get added here:
 
