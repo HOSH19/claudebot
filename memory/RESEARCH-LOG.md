@@ -485,3 +485,24 @@ Only candidates from: AAPL MSFT GOOGL AMZN NVDA META TSLA AMD AVGO TSM JPM GS V 
 - FOMC decision Wednesday — no new buys until after rate decision
 
 ### Midday Verdict: HOLD — no action required
+
+---
+
+## 2026-05-05 — Midday Addendum
+
+### Account Snapshot (midday)
+- Equity: $99,263.44 | Cash: $72,374.94 | DT count: 0
+- Session-start equity (last_equity): $99,164.78 | Change: +$98.66 (+0.10%) — **no DD halt**
+
+### Positions
+| Symbol | Shares | Avg Entry | Current | Unrealized P&L | Today | Stop | Status |
+|--------|--------|-----------|---------|----------------|-------|------|--------|
+| AAPL | 28 | $276.38 | $282.59 | +$173.74 (+2.25%) | +2.08% | 10% trail, HWM $283.21, stop $254.89 | Thesis intact |
+| NVDA | 96 | $207.15 | $197.73 | −$904.82 (−4.55%) | −0.38% | 10% trail, HWM $206.99, stop $186.29 | Thesis intact |
+
+### Actions Taken
+- **No cuts** — AAPL +2.25%, NVDA −4.55%; neither at −7% threshold
+- **No stop tightening** — neither position at +15%/+20% winner threshold
+- **No thesis breaks** — AAPL rallying post-entry (thesis: post-earnings pullback recovery + analyst upgrades); NVDA mild softness consistent with prior AI-chip-competition concerns; stop $186.29 intact
+
+### Midday Verdict: HOLD — no action required
