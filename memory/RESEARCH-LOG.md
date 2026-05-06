@@ -506,3 +506,24 @@ Only candidates from: AAPL MSFT GOOGL AMZN NVDA META TSLA AMD AVGO TSM JPM GS V 
 - **No thesis breaks** — AAPL rallying post-entry (thesis: post-earnings pullback recovery + analyst upgrades); NVDA mild softness consistent with prior AI-chip-competition concerns; stop $186.29 intact
 
 ### Midday Verdict: HOLD — no action required
+
+---
+
+## 2026-05-06 — Midday Addendum
+
+### Account Snapshot (midday)
+- Equity: $100,051.82 | Cash: $72,374.94 | DT count: 0
+- Session-start equity (last_equity): $99,195.98 | Change: +$855.84 (+0.86%) — **no DD halt**
+
+### Positions
+| Symbol | Shares | Avg Entry | Current | Unrealized P&L | Today | Stop | Status |
+|--------|--------|-----------|---------|----------------|-------|------|--------|
+| AAPL | 28 | $276.38 | $286.00 | +$269.36 (+3.48%) | +0.64% | 10% trail, HWM $287.14, stop $258.43 | Thesis intact |
+| NVDA | 96 | $207.15 | $204.80 | −$225.62 (−1.14%) | +4.22% | 10% trail, HWM $207.18, stop $186.46 | Thesis intact |
+
+### Actions Taken
+- **No cuts** — AAPL +3.48%, NVDA −1.14%; neither at −7% threshold
+- **No stop tightening** — AAPL at +3.48% (below +15%); NVDA still underwater
+- **No thesis breaks** — AAPL above entry ($286 vs $276.38); NVDA bouncing +4.22% today, May 20 earnings catalyst intact
+
+### Midday Verdict: HOLD — no action required
