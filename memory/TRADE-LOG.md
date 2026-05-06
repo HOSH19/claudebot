@@ -53,6 +53,18 @@ No positions yet. Bot launches tomorrow.
 
 **Notes:** Day 7 EOD. Quiet session — no new trades. Two positions held: AAPL recovering strongly post-earnings (+2.66% today, HWM $284.57, trailing stop tightened to $256.11); NVDA sliding further at -5.28% unrealized loss, approaching the -7% manual cut threshold — monitor closely at open tomorrow and cut if it breaches $192.65. Portfolio is 27% deployed, well below the 80% target; pre-market tomorrow should scout 1-2 additional setups from the approved universe (1/3 trades used this week). NVDA trade log entry missing from prior sessions — position confirmed live via Alpaca (96 shares, avg $207.15, stop $186.29, HWM $206.99). Phase P&L sits at -0.83%; need AAPL and NVDA recovery to close the gap vs S&P 500 benchmark.
 
+---
+
+### May 06 — EOD Snapshot (Day 8, Wednesday)
+**Portfolio:** $100,337.26 | **Cash:** $72,374.94 (72.1%) | **Day P&L:** +$1,168.16 (+1.18%) | **Phase P&L:** +$337.26 (+0.34%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 28 | $276.38 | $287.26 | +1.08% | +$304.64 (+3.94%) | $259.20 |
+| NVDA | 96 | $207.15 | $207.49 | +5.59% | +$32.62 (+0.16%) | $187.44 |
+
+**Notes:** Day 8 EOD. Strong session — NVDA staged a decisive intraday reversal (+5.59%), recovering from -5.28% unrealized loss yesterday to near-flat +0.16% today; the -7% cut was not triggered. AAPL continued its post-earnings grind higher (+1.08%), setting a new HWM of $288 with trailing stop now at $259.20. Phase P&L flips positive for the first time: +$337.26 (+0.34%). No new trades today; 1/3 trades used this week. Portfolio remains lightly deployed at 27.9% vs 80% target — pre-market tomorrow must aggressively scout 1–2 high-conviction setups to close the gap. Stops: AAPL $259.20 (HWM $288.00, 10% trail), NVDA $187.44 (HWM $208.27, 10% trail).
+
 <!--
 Append new entries below. Two kinds of entries get added here:
 
